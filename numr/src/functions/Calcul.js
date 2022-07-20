@@ -19,11 +19,21 @@ export var Calcul = {
 
     divide(num1, num2) {
         if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new CalculError({ type: 'SyntaxError', message: 'Invalid Number'})
+        return num1 / num2;
     },
 
     difference(num1, num2) {
         if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new CalculError({ type: 'SyntaxError', message: 'Invalid Number'})
+        return num1 - num2;
+    },
 
+    factorial(num) {
+      if (typeof num !== 'number') throw new CalculError({ type: 'SyntaxError', message: 'Invalid Number'})
+      let res = 1
+      for (var i = 1; i <= num; i++) {
+        res *= i
+      }
+      return res;
     },
 
     getRandomNumber(min, max, param) {
@@ -59,6 +69,7 @@ export var Calcul = {
             throw new CalculError({ type: 'TypeError', message: 'Invalid Number'})
           }        
     },
+
 
 
 }

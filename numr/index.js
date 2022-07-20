@@ -1,8 +1,7 @@
-import { Calcul } from './src/classes/Calcul.js';
-import { add } from './src/functions/add.js'; 
-import { remove } from './src/functions/remove.js';
+// import { Calcul } from './src/classes/Calcul.js';
+import { Calcul } from './src/functions/Calcul.js'; 
+import { CalculError } from './src/classes/CalculError.js';
 export {
+  CalculError,
   Calcul,
-  add,
-  remove
 };

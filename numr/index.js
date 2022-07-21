@@ -8,3 +8,5 @@ export {
   Calcul,
   PI,
 };
+
+console.log(PI(2495))

@@ -1,5 +1,5 @@
 import { CalculError } from "../../index.js";
-import { PI } from '../functions/Property.js';
+import { PI } from './Property.js';
 export var Calcul = {
 
     add(num1, num2) {

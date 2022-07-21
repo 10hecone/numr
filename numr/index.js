@@ -4,7 +4,6 @@ import { CalculError } from './src/classes/CalculError.js';
 export {
   CalculError,
   Calcul,
+
 };
     
-
-console.log(Calcul.factorial(4))

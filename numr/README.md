@@ -1,29 +1,29 @@
-### Numr Package
+# Numr!
 
-Numr est un package permettant de faciliter l'utilisation de l'object Math, il a aussi d'autre utilisation pour permettre plus d'option que l'object Math.
+Numr est un package permettant de faciliter l'utilisation de l'object Math.
 
-# Description
+## Description
 
 ```js
 Ce package permet de faciliter la manipulation des nombres, 
 
-Numr@0.1.0 est la version stable.
+Numr 1.0.0 est la version stable.
 ```
 
-# Installation
+## Installation
 
 ```js
 npm install numr
 ```
 
-# Importer
+## Importer
 
 ```js
 // Using ES6 imports only
 import numr from 'numr';
 ```
 
-# Examples
+## Examples
 
 ```js 
 import { Calcul } from 'numr'; 

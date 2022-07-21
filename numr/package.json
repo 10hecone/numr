@@ -1,14 +1,14 @@
 {
   "name": "numr",
-  "version": "0.1.5",
-  "description": "",
+  "version": "0.1.6",
+  "description": "Numr est un package permettant de faciliter l'utilisation de l'object Math.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "type": "module",
-  "author": "",
+  "author": "10Hecone",
   "license": "ISC",
   "dependencies": {
   }

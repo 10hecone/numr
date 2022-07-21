@@ -1,12 +1,13 @@
 {
   "name": "numr",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Numr est un package permettant de faciliter l'utilisation de l'object Math.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  "repository":"https://github.com/10hecone/numr",
   "type": "module",
   "author": "10Hecone",
   "license": "ISC",

@@ -1,4 +1,5 @@
 import { CalculError } from "../../index.js";
+import { PI } from '../functions/Property.js';
 export var Calcul = {
 
     add(num1, num2) {
@@ -74,11 +75,11 @@ export var Calcul = {
 
       switch (param) {
         case 'decimal':
-          return 2 * Math.PI * rayon;
+          return 2 * PI(64) * rayon;
         case 'round':
-          return Math.floor(2 * Math.PI * rayon);
+          return Math.floor(2 * PI(64) * rayon);
         default: 
-          return 2 * Math.PI * rayon;
+          return 2 * PI(64) * rayon;
       }   
     },
 

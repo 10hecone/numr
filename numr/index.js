@@ -9,4 +9,3 @@ export {
   PI,
 };
 
-console.log(PI(2495))

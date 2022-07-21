@@ -70,6 +70,19 @@ export var Calcul = {
           }        
     },
 
+    getPerimeter(rayon, param) {
+      if (typeof rayon !== 'number') throw new CalculError({ type: 'SyntaxError', message: 'Invalid Number'})
+
+      switch (param) {
+        case 'decimal':
+          return 2 * Math.PI * rayon;
+        case 'round':
+          return Math.floor(2 * Math.PI * rayon);
+        default: 
+          return 2 * Math.PI * rayon;
+      }   
+    }
+
 
 
 }

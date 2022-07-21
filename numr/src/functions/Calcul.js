@@ -1,5 +1,4 @@
 import { CalculError } from "../../index.js";
-
 export var Calcul = {
 
     add(num1, num2) {
@@ -81,8 +80,6 @@ export var Calcul = {
         default: 
           return 2 * Math.PI * rayon;
       }   
-    }
-
-
+    },
 
 }

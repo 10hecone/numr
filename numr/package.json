@@ -9,7 +9,11 @@
   "keywords": [],
   "repository":"https://github.com/10hecone/numr.git",
   "type": "module",
-  "author": "10Hecone",
+  "author": {
+    "name": "10Hecone",
+    "discordtag": "Hecone#2675",
+    "discordid": "466962388709670933"
+  },
   "license": "ISC",
   "dependencies": {
   }

@@ -27,20 +27,20 @@ export class Geometry {
   }
 
   setArea(height, width) {
-    if (typeof height !== "number" || typeof width !== "number") throw new CalculError({ type: "SyntaxError", message: "Invalid Number" });
+    if (typeof height !== "number" || typeof width !== "number") throw new CalculError({ type: "TypeError", message: "Invalid Number" });
     this.#height = height
     this.#width = width
     return this.#height * this.#width
   }
 
   setHeight(height) {
-    if (typeof height !== "number") throw new CalculError({ type: "SyntaxError", message: "Invalid Number" });
+    if (typeof height !== "number") throw new CalculError({ type: "TypeError", message: "Invalid Number" });
     this.#height = height
     return this.#height;
   }
 
   setWidth(width) {
-    if (typeof width !== "number") throw new CalculError({ type: "SyntaxError", message: "Invalid Number" });
+    if (typeof width !== "number") throw new CalculError({ type: "TypeError", message: "Invalid Number" });
     this.#width = width
     return this.#width;
   }

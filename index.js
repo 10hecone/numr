@@ -6,7 +6,7 @@ import { MathPY } from './src/classes/MathPython.js';
 export {
   CalculError,
   Geometry,
-  Calcul,
   MathPY,
+  Calcul,
   PI,
 };

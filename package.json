@@ -1,6 +1,6 @@
 {
   "name": "numr",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Numr est un package permettant de faciliter l'utilisation de l'object Math.",
   "main": "index.js",
   "scripts": {

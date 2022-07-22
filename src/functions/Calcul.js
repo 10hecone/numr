@@ -1,4 +1,3 @@
-import { CalculError } from "../../index.js";
 import { PI } from './Property.js';
 
 export var Calcul = {
@@ -10,32 +9,27 @@ export var Calcul = {
   */
 
     add(num1, num2) {
-        if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new CalculError({ type: 'TypeError', message: 'Invalid Number' })
+        if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new TypeError('Number is invalid')
         return num1 + num2;
     },
 
     subtract(num1, num2) {
-        if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new CalculError({ type: 'TypeError', message: 'Invalid Number'})
+        if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new TypeError('Number is invalid')
         return num1 - num2;
     },
 
     multiply(num1, num2) {
-        if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new CalculError({ type: 'TypeError', message: 'Invalid Number'})
+        if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new TypeError('Number is invalid')
         return num1 * num2;
     },
 
     divide(num1, num2) {
-        if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new CalculError({ type: 'TypeError', message: 'Invalid Number'})
+        if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new TypeError('Number is invalid')
         return num1 / num2;
     },
 
-    difference(num1, num2) {
-        if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new CalculError({ type: 'TypeError', message: 'Invalid Number'})
-        return num1 - num2;
-    },
-
     factorial(num) {
-        if (typeof num !== 'number' || typeof num !== 'number') throw new CalculError({ type: 'TypeError', message: 'Invalid Number'})
+        if (typeof num !== 'number' || typeof num !== 'number') throw new TypeError('Number is invalid')
       let res = 1
       for (let i = 1; i <= num; i++) {
         res *= i
@@ -44,19 +38,19 @@ export var Calcul = {
     },
 
     getRandomNumber(num1, num2, param) {
-        if (typeof num1 !== 'number' || typeof num2 !== 'number' ) throw new CalculError({ type: 'TypeError', message: 'Invalid Number'})
+        if (typeof num1 !== 'number' || typeof num2 !== 'number' ) throw new TypeError('Number is invalid')
             switch (param) {
               case 'decimal':
                 return Math.random() * (num2 - num1) + num1;
               case 'round':
                 return Math.floor(Math.random() * (num2 - num1) + num1);
               default: 
-                throw new CalculError({ type: 'TypeError', message: 'Invalid Type'});
+                throw new TypeError('Invalid Type');
             }
     },
 
     getSignNumber(num, param) {
-        if (typeof num !== 'number') throw new CalculError({ type: 'TypeError', message: 'Invalid Number'})
+        if (typeof num !== 'number') throw new TypeError('Number is invalid')
 
         let bool = Math.sign(num)
 
@@ -73,27 +67,21 @@ export var Calcul = {
             case 'number':
               return bool;
             default: 
-            throw new CalculError({ type: 'TypeError', message: 'Invalid Number'})
+            throw new TypeError('Number is invalid')
           }        
     },
 
     getPerimeter(num, param) {
-      if (typeof num !== 'number') throw new CalculError({ type: 'TypeError', message: 'Invalid Number'})
+      if (typeof num !== 'number') throw new TypeError('Number is invalid')
 
       switch (param) {
         case 'decimal':
-          return 2 * PI(64) * num;
+          return PI(15) * (num * 2);
         case 'round':
-          return Math.floor(2 * PI(64) * num);
+          return Math.floor(PI(15) * (num * 2));
         default: 
-          return 2 * PI(64) * num;
+          return PI(15) * (num * 2);
       }   
     },
-
-    isInteger(num) {
-      if (typeof num !== 'number') throw new CalculError({ type: 'TypeError', message: 'Invalid Number'})
-      return Number.isInteger(num)
-    },
-
 
 }

@@ -42,6 +42,18 @@ console.log(`Num1: ${num1} + Num2: ${num2}, Result: ${Calcul.add(num1, num2)}`)
 
 ![numr](https://cdn.discordapp.com/attachments/747623504681238528/999719534095257771/code.png)
 
+## Math Python
+
+```js
+Une nouvelle classe est arrivé au sein de Numr, la classe MathPY. Vous pourrez utiliser des méthodes seulement disponible en Python sur JavaScript. Il en existe seulement 5 pour le moment.
+
+- MathPY.ceil(x)
+- MathPY.comb(n, k)
+- MathPY.fabs(x)
+- MathPY.isnan(x)
+- MathPY.ldexp(x, i)
+```
+
 ## Creator
 
 ![Hecone](https://media.discordapp.net/attachments/747623504681238528/999718283831947365/unknown.png)

@@ -83,4 +83,10 @@ export var Calcul = {
       }   
     },
 
+    isInteger(x) {
+      if (typeof x !== 'number') throw new CalculError({ type: 'SyntaxError', message: 'Invalid Number'})
+      return Number.isInteger(x)
+    },
+
+
 }

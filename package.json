@@ -1,6 +1,6 @@
 {
   "name": "numr",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "Numr est un package permettant de faciliter l'utilisation de l'object Math.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -18,14 +18,16 @@
     "type": "git",
     "url": "https://github.com/10hecone/numr.git"
   },
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "author": {
     "name": "10Hecone",
     "discordtag": "Hecone#2675",
     "discordid": "466962388709670933"
   },
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^4.7.4"
   }
 }

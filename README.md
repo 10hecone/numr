@@ -22,7 +22,7 @@ npm  install  numr
 
 ```js
 // ES6
-import  * as numr  from  'numr';
+import * as numr  from  'numr';
 // Commonjs
 const numr = require('numr');
 ```

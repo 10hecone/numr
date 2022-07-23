@@ -7,7 +7,7 @@ Numr est un package permettant de faciliter l'utilisation de l'object Math.
 ```js
 Ce  package  permet  de  faciliter  la  manipulation  des  nombres,
 
-Numr  0.3.3 est  la  version  stable.
+Numr  0.3.4 est  la  version  stable.
 ```
 
 ## Installation
@@ -21,9 +21,10 @@ npm  install  numr
 ## Importer
 
 ```js
-// Using ES6 imports only
-
-import  numr  from  'numr';
+// ES6
+import  * as numr  from  'numr';
+// Commonjs
+const numr = require('numr');
 ```
 
 ## Examples

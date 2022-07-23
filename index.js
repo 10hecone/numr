@@ -8,5 +8,3 @@ export {
   Calcul,
   PI,
 };
-
-console.log(MathPY.comb(5, 4))

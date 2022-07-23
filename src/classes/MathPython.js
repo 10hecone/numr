@@ -9,14 +9,16 @@ export class MathPY {
     * @param {number} i
     */
 
+    // Fonctions arithmétiques et de représentation
+
     static comb(n, k) {
-        if (typeof n !== "number" || typeof k !== "number") throw new TypeError('Number is invalid');
+        if (typeof n !== "number" || typeof k !== "number") throw new TypeError('Number is invalid'); 
         if (!Calcul.getSignNumber(n, 'boolean') || !Calcul.getSignNumber(k, 'boolean')) throw new TypeError("Number is not positive");
         if (!Number.isInteger(n) || !Number.isInteger(k)) throw new TypeError("Number is The number is not an integer");
 
         if(k > n) return 0;
 
-        if(k <= n) return (Calcul.factorial(n) / (Calcul.factorial(k) * (Calcul.factorial((n - k)))))
+        if(k <= n) return (Calcul.factorial(n) / (Calcul.factorial(k) * (Calcul.factorial((n - k))))) 
     }
 
     static fabs(x) {
@@ -30,5 +32,17 @@ export class MathPY {
         if (typeof x !== 'number' || typeof i !== 'number') throw new TypeError('Number is invalid')
         return (x * (2**i))
     }
+
+    // Fonctions logarithme et exponentielle
+
+    // Fonctions trigonométriques
+
+    // Conversion angulaire
+
+    // Fonctions hyperboliques
+
+    // Fonctions spéciales
+
+    // Constantes
     
 }

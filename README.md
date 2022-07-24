@@ -47,6 +47,7 @@ Une nouvelle classe est arrivé au sein de Numr, la classe MathPY. Vous pourrez 
 - MathPY.comb(n, k)
 - MathPY.fabs(x)
 - MathPY.ldexp(x, i)
+- MathPY.dist(p1, p2, q1, q2) // require v0.3.9
 ```
 
 ## Creator

@@ -2,13 +2,6 @@ import { Calcul } from "../index";
 
 export class MathPY {
 
-    /**
-    * @param {number} x
-    * @param {number} n
-    * @param {number} k
-    * @param {number} i
-    */
-
     // Fonctions arithmétiques et de représentation
 
     static comb(n: number, k: number) {
@@ -36,6 +29,12 @@ export class MathPY {
     // Fonctions logarithme et exponentielle
 
     // Fonctions trigonométriques
+
+    static dist(p1: number, p2: number, q1: number, q2: number ) {
+        if (typeof p1 !== 'number' || typeof p2 !== 'number' || typeof q1 !== 'number' || typeof q2 !== 'number') throw new TypeError('Number is invalid')
+        return (Math.sqrt(((p1 - p2)**2 + (q1 - q2)**2)))
+
+    }
 
     // Conversion angulaire
 

@@ -1,7 +1,3 @@
-  /**
-  * @param {string} decimal
-  */
-
 let PIs = 
   415926535897932
 

@@ -1,39 +1,40 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 exports.Geometry = void 0;
-class Geometry {
-    constructor(height, width) {
+var Geometry = /** @class */ (function () {
+    function Geometry(height, width) {
         this.height = height;
         this.width = width;
     }
-    getArea() {
+    Geometry.prototype.getArea = function () {
         return this.width * this.height;
-    }
-    getDiameter() {
+    };
+    Geometry.prototype.getDiameter = function () {
         if (this.width !== this.height) {
             return (this.height + this.width) * 2;
         }
         else
             return this.height * 4;
-    }
-    setArea(height, width) {
+    };
+    Geometry.prototype.setArea = function (height, width) {
         if (typeof height !== "number" || typeof width !== "number")
             throw new TypeError('Number is invalid');
         this.height = height;
         this.width = width;
         return this.height * this.width;
-    }
-    setHeight(height) {
+    };
+    Geometry.prototype.setHeight = function (height) {
         if (typeof height !== "number")
             throw new TypeError('Number is invalid');
         this.height = height;
         return this.height;
-    }
-    setWidth(width) {
+    };
+    Geometry.prototype.setWidth = function (width) {
         if (typeof width !== "number")
             throw new TypeError('Number is invalid');
         this.width = width;
         return this.width;
-    }
-}
+    };
+    return Geometry;
+}());
 exports.Geometry = Geometry;

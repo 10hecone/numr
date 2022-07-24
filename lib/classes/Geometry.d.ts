@@ -1,10 +1,6 @@
 export declare class Geometry {
     height: number;
     width: number;
-    /**
-    * @param {number} height
-    * @param {number} width
-    */
     constructor(height: number, width: number);
     getArea(): number;
     getDiameter(): number;

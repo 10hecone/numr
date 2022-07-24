@@ -2,11 +2,6 @@ export class Geometry {
   height;
   width;
 
-  /**
-  * @param {number} height
-  * @param {number} width
-  */
-
   constructor(height: number, width: number) {
     this.height = height;
     this.width = width;

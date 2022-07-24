@@ -1,38 +1,38 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 exports.Calcul = void 0;
-const __Property_js_1 = require("./__Property.js");
+var __Property_js_1 = require("./__Property.js");
 exports.Calcul = {
-    add(num1, num2) {
+    add: function (num1, num2) {
         if (typeof num1 !== 'number' || typeof num2 !== 'number')
             throw new TypeError('Number is invalid');
         return num1 + num2;
     },
-    subtract(num1, num2) {
+    subtract: function (num1, num2) {
         if (typeof num1 !== 'number' || typeof num2 !== 'number')
             throw new TypeError('Number is invalid');
         return num1 - num2;
     },
-    multiply(num1, num2) {
+    multiply: function (num1, num2) {
         if (typeof num1 !== 'number' || typeof num2 !== 'number')
             throw new TypeError('Number is invalid');
         return num1 * num2;
     },
-    divide(num1, num2) {
+    divide: function (num1, num2) {
         if (typeof num1 !== 'number' || typeof num2 !== 'number')
             throw new TypeError('Number is invalid');
         return num1 / num2;
     },
-    factorial(num) {
+    factorial: function (num) {
         if (typeof num !== 'number' || typeof num !== 'number')
             throw new TypeError('Number is invalid');
-        let res = 1;
-        for (let i = 1; i <= num; i++) {
+        var res = 1;
+        for (var i = 1; i <= num; i++) {
             res *= i;
         }
         return res;
     },
-    getRandomNumber(num1, num2, param) {
+    getRandomNumber: function (num1, num2, param) {
         if (typeof num1 !== 'number' || typeof num2 !== 'number')
             throw new TypeError('Number is invalid');
         switch (param) {
@@ -44,10 +44,10 @@ exports.Calcul = {
                 throw new TypeError('Invalid Type');
         }
     },
-    getSignNumber(num, param) {
+    getSignNumber: function (num, param) {
         if (typeof num !== 'number')
             throw new TypeError('Number is invalid');
-        let bool = Math.sign(num);
+        var bool = Math.sign(num);
         switch (param) {
             case 'boolean':
                 switch (bool) {
@@ -64,7 +64,7 @@ exports.Calcul = {
                 throw new TypeError('Number is invalid');
         }
     },
-    getPerimeter(num, param) {
+    getPerimeter: function (num, param) {
         if (typeof num !== 'number')
             throw new TypeError('Number is invalid');
         switch (param) {
@@ -75,5 +75,5 @@ exports.Calcul = {
             default:
                 return (0, __Property_js_1.PI)(15) * (num * 2);
         }
-    },
+    }
 };

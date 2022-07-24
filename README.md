@@ -1,4 +1,4 @@
-# Numr!
+![Numr](https://cdn.discordapp.com/attachments/986655566178963557/1000781333284540490/numrjssansmaj.png)
 
 Numr est un package permettant de faciliter l'utilisation de l'object Math.
 
@@ -7,7 +7,7 @@ Numr est un package permettant de faciliter l'utilisation de l'object Math.
 ```js
 Ce  package  permet  de  faciliter  la  manipulation  des  nombres,
 
-Numr  0.3.7 est  la  version  stable.
+Numr  0.4.0 est  la  version  stable.
 ```
 
 ## Installation

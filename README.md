@@ -42,7 +42,7 @@ console.log(`Num1: ${num1} + Num2: ${num2}, Result: ${Calcul.add(num1, num2)}`)
 ## Math Python
 
 ```js
-Une nouvelle classe est arrivé au sein de Numr, la classe MathPY. Vous pourrez utiliser des méthodes seulement disponible en Python sur JavaScript. Il en existe seulement 3 pour le moment.
+Une nouvelle classe est arrivé au sein de Numr, la classe MathPY. Vous pourrez utiliser des méthodes Math seulement disponible en Python sur JavaScript. Il en existe seulement 4 pour le moment.
 
 - MathPY.comb(n, k)
 - MathPY.fabs(x)

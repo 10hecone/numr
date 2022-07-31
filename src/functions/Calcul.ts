@@ -59,7 +59,7 @@ export var Calcul = {
   getSignNumber(num: number, param: string) { // Calcul.getSignNumber(4, <boolean or number>) => (boolean = true) (number = 1) 
     if (typeof num !== 'number') throw new TypeError('Number is invalid') // Create an error if it is not a number
 
-    let bool = Math.sign(num); // Use function Math.sign
+    const bool = Math.sign(num); // Use function Math.sign
 
     switch (param) {
       case 'boolean': // Return true, false or null

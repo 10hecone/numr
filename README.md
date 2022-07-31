@@ -1,13 +1,13 @@
 ![Numr](https://cdn.discordapp.com/attachments/986655566178963557/1000781333284540490/numrjssansmaj.png)
 
-Numr est un package permettant de faciliter l'utilisation de l'object Math.
+Number is a package to facilitate the use of the Math object.
 
 ## Description
 
 ```js
-Ce  package  permet  de  faciliter  la  manipulation  des  nombres,
+Ce package facilite la manipulation des nombres,
 
-Numr  0.4.1 est  la  version  stable.
+Numr 1.2.9 est la version stable.
 ```
 
 ## Installation
@@ -42,7 +42,7 @@ console.log(`Num1: ${num1} + Num2: ${num2}, Result: ${Calcul.add(num1, num2)}`)
 ## Math Python
 
 ```js
-Une nouvelle classe est arrivé au sein de Numr, la classe MathPY. Vous pourrez utiliser des méthodes Math seulement disponible en Python sur JavaScript. Il en existe seulement 4 pour le moment.
+A new class has arrived within Numr, the MathPY class. You will be able to use Math methods only available in Python on JavaScript. There are only 4 at the moment.
 
 - MathPY.comb(n, k)
 - MathPY.fabs(x)
@@ -52,4 +52,4 @@ Une nouvelle classe est arrivé au sein de Numr, la classe MathPY. Vous pourrez 
 
 ## Creator
 
-![Hecone](https://media.discordapp.net/attachments/747623504681238528/999718283831947365/unknown.png)
+Hecone

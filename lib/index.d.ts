@@ -1,3 +1,7 @@
+/**
+ * Import functions/property/class
+ * Export function/property/class
+ */
 import { Geometry } from './classes/Geometry';
 import { Calcul } from './functions/Calcul';
 import { PI } from './functions/__Property';

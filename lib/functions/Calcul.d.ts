@@ -1,3 +1,7 @@
+/**
+ * Calcul is a variable containing several calculation functions
+ * Calcul require property PI for getPerimeter()
+ */
 export declare var Calcul: {
     add(num1: number, num2: number): number;
     subtract(num1: number, num2: number): number;

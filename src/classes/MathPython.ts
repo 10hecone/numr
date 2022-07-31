@@ -17,8 +17,8 @@ export class MathPY {
 
         if (k > n) return 0;
 
-        if (k <= n) return (Calcul.factorial(n) / (Calcul.factorial(k) * (Calcul.factorial((n - k)))))
-    }
+        if (k <= n) return (Calcul.factorial(n) / (Calcul.factorial(k) * (Calcul.factorial((n - k)))));
+    };
 
     // Fabs function https://docs.python.org/3/library/math.html#math.fabs
     static fabs(x: number) {
@@ -26,20 +26,19 @@ export class MathPY {
 
         if (Calcul.getSignNumber(x, 'boolean')) return x;
         return (x * -1);
-    }
+    };
 
     // ldexp function https://docs.python.org/3/library/math.html#math.ldexp
     static ldexp(x: number, i: number) {
         if (typeof x !== 'number' || typeof i !== 'number') throw new TypeError('Number is invalid') // Create an error if it is not a number 
-        return (x * (2 ** i))
-    }
+        return (x * (2 ** i));
+    };
 
     // Fonctions trigonométriques
 
     // dist function https://docs.python.org/3/library/math.html#math.dist
     static dist(p1: number, p2: number, q1: number, q2: number) {
         if (typeof p1 !== 'number' || typeof p2 !== 'number' || typeof q1 !== 'number' || typeof q2 !== 'number') throw new TypeError('Number is invalid') // Create an error if it is not a number 
-        return (Math.sqrt(((p1 - p2) ** 2 + (q1 - q2) ** 2)))
-
-    }
+        return (Math.sqrt(((p1 - p2) ** 2 + (q1 - q2) ** 2)));
+    };
 }

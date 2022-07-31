@@ -1,3 +1,6 @@
+/**
+ * Geometry is a class containing several geometry functions to calculate the measure and get it
+ */
 export declare class Geometry {
     height: number;
     width: number;

@@ -38,7 +38,7 @@ export var Calcul = {
     let res = 1
     for (let i = 1; i <= num; i++) { // Create a loop to get the factorial
       res *= i
-    }
+    };
     return res; // Return value of boucle
   },
 
@@ -52,14 +52,14 @@ export var Calcul = {
         return Math.floor(Math.random() * (num2 - num1) + num1); // Return value 0
       default:
         throw new TypeError('Invalid Type'); // If no parameter error
-    }
+    };
   },
 
   // getSignNumber function
   getSignNumber(num: number, param: string) { // Calcul.getSignNumber(4, <boolean or number>) => (boolean = true) (number = 1) 
     if (typeof num !== 'number') throw new TypeError('Number is invalid') // Create an error if it is not a number
 
-    let bool = Math.sign(num) // Use function Math.sign
+    let bool = Math.sign(num); // Use function Math.sign
 
     switch (param) {
       case 'boolean': // Return true, false or null
@@ -75,7 +75,7 @@ export var Calcul = {
         return bool;
       default:
         throw new TypeError('Number is invalid')  // If no parameter error
-    }
+    };
   },
 
   // getPerimeter function
@@ -89,7 +89,6 @@ export var Calcul = {
         return Math.floor(PI(15) * (num * 2));
       default: // Return 0.0000 
         return PI(15) * (num * 2);
-    }
+    };
   },
-
-}
+};

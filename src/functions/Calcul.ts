@@ -1,3 +1,8 @@
+/**
+ * Calcul is a variable containing several calculation functions
+ * Calcul require property PI for getPerimeter()
+ */
+
 import { PI } from './__Property.js'; // Import PI function from Property
 
 // Calcul variable containing the functions

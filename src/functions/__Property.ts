@@ -1,3 +1,7 @@
+/**
+ * There are several properties like PI
+ */
+
 let PIs =
   415926535897932 // Get value PI 15 decimal
 

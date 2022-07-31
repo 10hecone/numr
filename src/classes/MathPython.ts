@@ -1,6 +1,11 @@
+/**
+ * MathPY is a class containing several calculation functions from Python
+ * MathPY require variable Cacul for comb, fabs.
+ */
+
 import { Calcul } from "../index"; // Import variable Calcul from index
 
-export class MathPY { // Export class MathPython to Module
+export class MathPY {
 
     // Fonctions arithmétiques et de représentation
 
@@ -29,8 +34,6 @@ export class MathPY { // Export class MathPython to Module
         return (x * (2 ** i))
     }
 
-    // Fonctions logarithme et exponentielle
-
     // Fonctions trigonométriques
 
     // dist function https://docs.python.org/3/library/math.html#math.dist
@@ -39,13 +42,4 @@ export class MathPY { // Export class MathPython to Module
         return (Math.sqrt(((p1 - p2) ** 2 + (q1 - q2) ** 2)))
 
     }
-
-    // Conversion angulaire
-
-    // Fonctions hyperboliques
-
-    // Fonctions spéciales
-
-    // Constantes
-
 }

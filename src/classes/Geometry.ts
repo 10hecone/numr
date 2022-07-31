@@ -1,3 +1,7 @@
+/**
+ * Geometry is a class containing several geometry functions to calculate the measure and get it
+ */
+
 export class Geometry { // Export class Geometry to Module
   height;
   width;
@@ -7,13 +11,10 @@ export class Geometry { // Export class Geometry to Module
     this.width = width;
   }
 
-
-  // Get Function
-
   // getArea function 
   getArea() {
     return this.width * this.height;
-  } // Return area
+  } 
 
   // getDiameter function
   getDiameter() {
@@ -22,27 +23,25 @@ export class Geometry { // Export class Geometry to Module
     } else return this.height * 4;
   }
 
-  // Set Function
-
   // setArea function
   setArea(height: number, width: number) {
     if (typeof height !== "number" || typeof width !== "number") throw new TypeError('Number is invalid'); // Create an error if it is not a number 
     this.height = height // Change height in constructor
     this.width = width // Change width in constructor
-    return this.height * this.width // Return area
+    return this.height * this.width
   }
 
   // setHeight function
   setHeight(height: number) {
     if (typeof height !== "number") throw new TypeError('Number is invalid'); // Create an error if it is not a number 
     this.height = height // Change height in constructor
-    return this.height; // Return height
+    return this.height; 
   }
 
   // setWidth function
   setWidth(width: number) {
     if (typeof width !== "number") throw new TypeError('Number is invalid'); // Create an error if it is not a number 
     this.width = width // Change width in constructor
-    return this.width; // Return width
+    return this.width; 
   }
 }

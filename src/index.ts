@@ -1,10 +1,10 @@
-// Import des functions/property/class.
+// Import functions/property/class.
 import { Geometry } from './classes/Geometry'; // Class
 import { Calcul } from './functions/Calcul'; // Variable.function()
-import { PI } from './functions/__Property'; // Property (exception à PI qui est une function)
+import { PI } from './functions/__Property'; // Property (exception to PI which is a function)
 import { MathPY } from './classes/MathPython'; // Class.static 
 
-// Export des imports dans le fichier Numr
+// Export classes, functions, property from import
 export {
   Geometry,
   MathPY,

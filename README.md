@@ -5,9 +5,9 @@ Number is a package to facilitate the use of the Math object.
 ## Description
 
 ```js
-Ce package facilite la manipulation des nombres,
+This package makes it easy to manipulate numbers,
 
-Numr 1.2.9 est la version stable.
+Numr 1.3.0 is the stable release.
 ```
 
 ## Installation

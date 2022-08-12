@@ -2,7 +2,7 @@
  * There are several properties like PI
  */
 
-const PIs = 415926535897932; // Get value PI 15 decimal
+const PIs: number = 415926535897932; // Get value PI 15 decimal
 
 // Function PI
 export function PI(decimal: number) { // Export function PI from module (require param deciaml)

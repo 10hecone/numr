@@ -7,7 +7,7 @@ Number is a package to facilitate the use of the Math object.
 ```js
 This package makes it easy to manipulate numbers,
 
-Numr 1.3.3 is the stable release.
+Numr 1.4.3 is the stable release.
 ```
 
 ## Installation
@@ -36,7 +36,17 @@ let  num1 = Calcul.getRandomNumber(1, 155, 'round')
 
 let  num2 = Calcul.getRandomNumber(1, 155, 'decimal')
 
-console.log(`Num1: ${num1} + Num2: ${num2}, Result: ${Calcul.add(num1, num2)}`)
+console.log(`Num1: ${num1} + Num2: ${num2}, Result: ${num1 + num2}`)
+```
+
+## (New) Compressor
+
+```js
+A new class has arrived within Numr, the Compressor. You will be able to compress and decompress your texts with the LZW algorithm (other algorithms will come later).
+
+- Compressor.compress("test", {algorithm: "lzw"})
+- Compressor.decompress(numr.Compressor.compress("test", {algorithm: "lzw"}), {algorithm: "lzw"})
+
 ```
 
 ## Math Python
@@ -47,7 +57,7 @@ A new class has arrived within Numr, the MathPY class. You will be able to use M
 - MathPY.comb(n, k)
 - MathPY.fabs(x)
 - MathPY.ldexp(x, i)
-- MathPY.dist(p1, p2, q1, q2) // require v0.3.9
+- MathPY.dist(p1, p2, q1, q2)
 ```
 
 ## Creator

@@ -7,7 +7,7 @@ Number is a package to facilitate the use of the Math object.
 ```js
 This package makes it easy to manipulate numbers,
 
-Numr 1.4.3 is the stable release.
+Numr 1.4.5 is the stable release.
 ```
 
 ## Installation

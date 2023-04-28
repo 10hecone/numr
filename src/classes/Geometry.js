@@ -39,7 +39,6 @@ export class Geometry { // Export class Geometry to Module
    */
 
   setArea(height, width) {
-    if (typeof height !== "number" || typeof width !== "number") throw new TypeError('Number is invalid'); // Create an error if it is not a number 
     this.height = height // Change height in constructor
     this.width = width // Change width in constructor
     return this.height * this.width
@@ -52,7 +51,6 @@ export class Geometry { // Export class Geometry to Module
    */
 
   setHeight(height) {
-    if (typeof height !== "number") throw new TypeError('Number is invalid'); // Create an error if it is not a number 
     this.height = height // Change height in constructor
     return this.height; 
   };
@@ -64,7 +62,6 @@ export class Geometry { // Export class Geometry to Module
    */
   
   setWidth(width) {
-    if (typeof width !== "number") throw new TypeError('Number is invalid'); // Create an error if it is not a number 
     this.width = width // Change width in constructor
     return this.width; 
   };

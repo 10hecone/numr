@@ -14,7 +14,6 @@ export const Compressor = {
    */
 
   compress(string, options = {}) { // Compressor.compress("example", "lzw")
-    if(!string || typeof string !== "string") return '';
 
     const dico = options?.dico ?? Array.from({ length: 256 }, (_, i) => String.fromCharCode(i)).reduce((dict, char) => ({ ...dict, [char]: char.charCodeAt(0) }), {});
     const algorithm = options?.algorithm ?? 'lzw';

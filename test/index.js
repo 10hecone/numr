@@ -5,7 +5,7 @@ console.log(`
     Compress: [${numr.Compressor.compress("test", {algorithm: "lzw"})}]
     Decompress: ${numr.Compressor.decompress(numr.Compressor.compress("test", {algorithm: "lzw"}), {algorithm: "lzw"})}
   PI:
-    Value: ${numr.PI(15)}
+    Value: ${numr.PI()}
   Calcul:
      ${numr.Calcul.factorial(3)}
      ${numr.Calcul.getPerimeter(3, 'round')}

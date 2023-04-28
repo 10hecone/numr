@@ -15,7 +15,6 @@ export const Calcul = {
    */
 
   factorial(num) { // Calcul.factorial(3) => (3x2x1) => 6
-    if (typeof num !== 'number') throw new TypeError('Number is invalid') // Create an error if it is not a number
     let res = 1
     for (let i = 1; i <= num; i++) { // Create a loop to get the factorial
       res *= i
@@ -32,7 +31,6 @@ export const Calcul = {
    */
 
   getRandomNumber(num1, num2, param) { // Calcul.getRandomNumber(1, 3, <decimal or round>) => Random number between 1 and 3
-    if (typeof num1 !== 'number' || typeof num2 !== 'number') throw new TypeError('Number is invalid') // Create an error if it is not a number
     switch (param) { // param == decimal or round
       case 'decimal':
         return Math.random() * (num2 - num1) + num1; // Return value 0.0000
@@ -51,7 +49,6 @@ export const Calcul = {
    */
 
   getSignNumber(num, param) { // Calcul.getSignNumber(4, <boolean or number>) => (boolean = true) (number = 1) 
-    if (typeof num !== 'number') throw new TypeError('Number is invalid') // Create an error if it is not a number
 
     const bool = Math.sign(num); // Use function Math.sign
 
@@ -80,7 +77,6 @@ export const Calcul = {
    */
 
   getPerimeter(num, param) { // Calcul.getPerimeter(perimeter, <decimal or round>) => (PI(15) * (num * 2)) => value
-    if (typeof num !== 'number') throw new TypeError('Number is invalid') // Create an error if it is not a number
 
     switch (param) {
       case 'decimal': // Return 0.00000
